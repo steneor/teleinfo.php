@@ -142,8 +142,8 @@ $data2 = php2js($d2);
 $data3 = php2js($d3);
 $data4 = php2js($d4);
 //print_r($d1);
-$dd1 = json_encode($d1);
-echo $dd1;
+//$dd1 = json_encode($d1);
+//echo $dd1;
 ?>
 <!DOCTYPE HTML>
 <html>
