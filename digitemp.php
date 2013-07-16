@@ -316,7 +316,7 @@ $(function() {
 	<body>
 
 <form action="digitemp.php" method="post">
-Selectionnez la date de d&eacute;but d'affichage<input type="text" id="datepicker" name="date" value=<?php echo "\"$datedebut\"" ?>/>
+Selectionnez la date de d&eacute;but d'affichage<input type="text" readonly="readonly" id="datepicker" name="date" value=<?php echo "\"$datedebut\"" ?>/>
 <?php
 $TabZoom[0] = "3j";
 $TabZoom[] = "1s";
